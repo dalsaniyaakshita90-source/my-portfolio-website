@@ -1,3 +1,14 @@
+import commonwealthImg from '../../commonwealth.jpeg';
+import cybersecurityImg from '../../cybersecurity.jpeg';
+import islImg from '../../isl.jpeg';
+import learningDifficultiesImg from '../../learning-difficulties.jpeg';
+import importExportImg from '../../import-export.jpeg';
+import bizvistaImg from '../../bizvista.jpeg';
+import musicImg from '../../music.jpeg';
+import nismImg from '../../nism.jpeg';
+import researchInternshipImg from '../../research-internship.jpeg';
+import rbiImg from '../../rbi.jpeg';
+import wallPaintingImg from '../../wall-painting.jpeg';
 export interface CertificateItem {
   id: string;
   title: string;
@@ -24,7 +35,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Creative & Arts',
     description: 'Awarded on the recommendation of international judges Sir Ben Okri OBE, Imtiaz Dharker, and Janet Cooper OBE in the world\'s oldest international schools writing competition.',
     badge: 'ROYAL SILVER CREST',
-    imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: commonwealthImg,
     externalLink: 'https://www.royalcwsociety.org/essay-competition'
   },
   {
@@ -36,7 +47,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Research',
     description: 'Completed international research internship exchange in sustainable industrial development with a final grade of 3.7 / 4.0 under Rector Prof. Dr. Tran Thanh Hai.',
     badge: 'HUMG RECTOR SEAL • 3.7/4.0 GPA',
-    imageUrl: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: researchInternshipImg,
     externalLink: 'http://humg.edu.vn/en/'
   },
   {
@@ -49,7 +60,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     description: 'Equipped with foundational knowledge of Indian Sign Language (ISL), promoting inclusion and effective communication for people with hearing disabilities.',
     duration: '40 Hours Course',
     badge: '40-HR ISLRTC GOVT CERTIFIED',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: islImg,
     externalLink: 'http://islrtc.nic.in/'
   },
   {
@@ -62,7 +73,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     description: '7-hour intensive course on understanding neurodiversity, learning differences, and creating inclusive learning environments.',
     duration: '7 Hours Course',
     badge: 'NEURODIVERSITY & INCLUSION',
-    imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: learningDifficultiesImg,
     externalLink: 'https://aurosociety.org/'
   },
   {
@@ -74,7 +85,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Finance',
     description: 'Represented School of Management, RK University, Rajkot at the prestigious State Level Round in the nationwide RBI milestone quiz.',
     badge: 'RESERVE BANK OF INDIA STATE ROUND',
-    imageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: rbiImg,
     externalLink: 'https://www.rbi.org.in/'
   },
   {
@@ -86,7 +97,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Finance',
     description: 'Comprehensive financial literacy and securities markets capacity building initiative by SEBI.',
     badge: 'NISM SEBI FINANCIAL BHARAT',
-    imageUrl: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: nismImg,
     externalLink: 'https://www.nism.ac.in/'
   },
   {
@@ -99,7 +110,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     description: 'Demonstrated initiative and technical expertise in cyber defense and digital security frameworks.',
     credentialCode: '8403654',
     badge: 'SKILLUP ID #8403654',
-    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: cybersecurityImg,
     externalLink: 'https://www.simplilearn.com/'
   },
   {
@@ -111,7 +122,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Creative & Arts',
     description: 'Participated in public street wall painting at Mahila Garden Master Society to revitalize urban public spaces with community mural art.',
     badge: 'URBAN PUBLIC MURAL RECOGNITION',
-    imageUrl: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: wallPaintingImg,
     externalLink: 'https://www.rmc.gov.in/'
   },
   {
@@ -123,7 +134,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Academic & Leadership',
     description: 'Outstanding contribution as a volunteer coordinator in the annual university management fest.',
     badge: 'UNIVERSITY FEST LEADERSHIP',
-    imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: bizvistaImg,
     externalLink: 'https://rku.ac.in/'
   },
   {
@@ -135,7 +146,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Creative & Arts',
     description: 'Passed classical instrument certification in acoustic guitar performance and classical raagas.',
     badge: 'CLASSICAL GUITAR CERTIFIED',
-    imageUrl: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: musicImg,
     externalLink: 'https://abgmvm.org/'
   },
   {
@@ -147,7 +158,7 @@ export const CERTIFICATES_LIST: CertificateItem[] = [
     category: 'Finance',
     description: 'Completed 30 comprehensive sessions covering international trade, documentation, customs tariffs, and foreign trade logistics.',
     badge: '30-SESSION INTERNATIONAL TRADE',
-    imageUrl: 'https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1000&auto=format&fit=crop&q=85',
+    imageUrl: importExportImg,
     externalLink: 'https://globalexim.in/'
   }
 ];
